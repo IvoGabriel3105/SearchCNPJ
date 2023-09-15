@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Buscar CNPJ</title>
+    <link rel="shortcut icon" href="icons/safe-and-stable-svgrepo-com.svg">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Consulta de CNPJ</h1>
+    <div id="consultaForm">
+        <input type="text" id="cnpjInput" placeholder="Somente Números">
+        <button id="consultarButton">Consultar</button>
+    </div>
+    <div id="resultado">
+        <h2>Dados da Empresa</h2>
+        <!-- A tabela de dados foi removida -->  
+    </div>
+    <div id="tabelaResultadosContainer">
+        
+        <table id="tabelaResultados">
+            <thead>
+                <tr>
+                    <th>CNPJ</th>
+                    <th>Nome</th>
+                    <th>Logradouro</th>
+                    <th>Complemento</th>
+                    <th>Numero</th>
+                    <th>Abertura</th>
+                    <th>Municipio</th>
+                    <th>CEP</th>
+                    <th>motivo</th>
+                    <th>Estado</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <!-- As linhas de resultados serão adicionadas dinamicamente aqui -->
+            </tbody>
+        </table>
+    </div><br>
+    
+    <input type="button" id="export-button" value="Salvar no Excel" />
+    
+    <script src="javascript/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js"></script>
+</body>
+</html>

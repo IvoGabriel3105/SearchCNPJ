@@ -1,0 +1,122 @@
+/* Define uma fonte padrão e cor de fundo */
+table{
+    border-collapse: collapse; /* CSS2 */
+    background: #FFFFF0;
+    border: dashed red 1px; /* Precedência tem bug no IE */
+    border: 1px dotted blue;
+    border: 1px solid blue;
+    border-bottom: 2px solid rgb(3, 169, 3);
+    background: #399a39;
+    font-size: 12px;
+    padding: 10px;
+    text-align: left;
+    background-color: #6f5151;
+    font-weight: bold;
+    
+}
+th,tbody,tr
+{
+    border: 2px solid rgb(72, 74, 72);
+}
+ 
+/* Define uma fonte padrão e cor de fundo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+   
+}
+
+/* Centraliza o conteúdo verticalmente e horizontalmente na página */
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estiliza o cabeçalho h1 */
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estiliza o formulário */
+form {
+    text-align: center;
+}
+
+/* Estiliza o campo de entrada */
+#cnpjInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Estiliza o botão de consulta */
+#consultarButton {
+    background-color: #034e95;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Estiliza a área de resultado */
+#resultado {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estiliza a tabela de resultados */
+#tabelaResultados {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#tabelaResultados th {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#tabelaResultados th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Estiliza o botão de exportação */
+#export-button {
+    background-color: #039547;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+/* Limpa a flutuação */
+.clear::after {
+    content: "";
+    display: table;
+    clear: both;
+}
